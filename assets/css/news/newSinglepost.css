@@ -1,0 +1,68 @@
+.header {
+    background-image: url("../../img/news/newpost-header.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* post-body */
+.post-body{
+    margin: 50px 0;   
+    
+}
+.post-container{
+    color: var(--text-color);
+    font-size: 1.4rem;
+    letter-spacing: 2.2px;
+    line-height: 2.4rem;
+    
+}
+.big-letter{
+    font-size: 7rem;
+    padding: 28px;
+    float: left;
+}
+.post-tours h3 {
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 0 12px;
+    color: var(--main-color);
+}
+.post-tours p {
+    padding: 0 12px;
+}
+.post-tours img {
+    width: 100%;
+}
+.tags-list span{
+    color: var(--main-color);
+}
+.tags-list a{
+    text-decoration: none;
+    color: var(--text-color);
+    margin-right: 20px;
+    border: 1px solid #f1f1f1;
+    padding: 10px 20px;
+}
+.post-guest {
+    padding-bottom: 80px;
+    border-bottom: 1px solid #f1f1f1;
+}
+.post-guest h3{
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--main-color);
+}
+.post-guest p {
+    margin-bottom: 60px;
+}
+.post-comment {
+    margin: 40px 0;
+}
+.post-comment h3 {
+    color: var(--main-color);
+    font-size: 2rem;
+}
+.post-comment span {
+    color: var(--main-color);
+}

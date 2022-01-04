@@ -1,0 +1,107 @@
+/* Tablet */
+@media (min-width:740px) and (max-width: 1024px) {
+    /* recommend */
+    .recommend-content{
+        margin-bottom: 40px;
+    }
+    .recommend-btn{
+        display: block;
+    }
+    .recommend-tour {
+        display: flex;
+        justify-content: flex-start;
+    }
+    .recommend-tour img{
+        padding: 20px;
+    }
+
+    /* package */
+    .package-item {
+        margin-bottom: 40px;
+    }
+}
+/* mobile */
+@media (max-width: 739px) {
+    /* header */
+    
+    .header-img{
+        padding-top: 200px;
+    }
+    .header-img__content{
+        padding-bottom: 300px;
+    }
+    .header-img__content h1{
+        line-height: 5rem;
+        padding: 0 50px;
+    }
+    .header-img__content h3{
+        display: none;
+        /* line-height: 2rem;
+        padding: 0 50px; */
+    }
+    .header-img__action a{
+        display: block;
+    }
+    .header-img__action img{
+        width: 200px;
+        padding: 30px 80px;
+    }
+    
+    /* destination */
+    .content-title{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .content-title h1{
+        line-height: 30px;
+    }
+    .destination-list {
+        justify-content: center;
+    }
+
+    /* Mid-banner */
+    .mid-banner{
+        display: block;
+        padding: 50px;
+    }
+    .mid-banner h1 {
+        line-height: 5rem;
+    }
+    
+    /* Recommand */
+    .recommend-container {
+        align-items: center;
+        justify-content: center;
+    }
+    .recommend-title{
+        line-height: 3.4rem;
+    }
+    .slideshow-container {
+        height: inherit;
+        margin-top: 50px;
+    }
+    .tour-container {
+        justify-content: center;
+    }
+    .recommend-tour img{
+        padding: 20px;
+    }
+
+    /* banner-custom */
+    .banner-custom__text{
+        width: 100%;
+        text-align: center;
+    }
+    .banner-custom__title h2 {
+        line-height: 4rem;
+        width: 100%;
+    }
+
+    /* Packages */
+    .package-list{
+        justify-content: center;
+    }
+    .package-item{
+        margin-bottom: 20px;
+    }
+}

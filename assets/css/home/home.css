@@ -1,0 +1,309 @@
+
+.header{ 
+    background-image: url("../../img/home/header.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    background-attachment: fixed;
+}
+
+
+
+.header-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.header-img__content{
+    z-index: 2;
+    color: var(--white-color);
+    text-align: center;
+}
+.header-img__content h1 {
+    font-size: 5rem;
+    margin-bottom: 60px;
+}
+.header-img__content h3 {
+    margin-bottom: 80px;
+    font-size: 2rem;
+    letter-spacing: 4px;
+    font-weight: 500;
+}
+.header-img__input{
+    position: absolute;
+    width: 350px;
+    background-color: var(--white-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-radius: 30px;
+    transform: translateX(-50%);
+    left: 50%;
+}
+.header-img__input input {
+    border: none;
+    outline: none;
+    font-size: 1.6rem;
+    
+}
+.header-img__input i{
+    font-size: 1.6rem;
+    color: var(--main-color);
+}
+.header-img__action {
+    position: relative;
+    top: 100px;
+}
+
+.header-img__action img {
+    width: 100px;
+    padding: 20px 20px;
+    margin-right: 26px;
+    background-color: rgba(0,0,0,0.4);
+    cursor: pointer;
+}
+
+
+/* ----------------------End Header--------- */
+
+/* ---------------Destination------------ */
+
+.destination-item{
+    position: relative;
+    margin-bottom: 24px;
+}
+.destination-item :hover ~.modal {
+    display: block;
+}
+
+.destination-item__content{
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+    color: var(--white-color);
+    z-index: 1;
+}
+.destination-item__content h2{
+    font-weight: 900;
+    font-size: 2.2rem;
+}
+.destination-item__content h4{
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+.destination-item__img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+    
+}
+/* ----------mid-banner --------------- */
+.mid-banner{
+    background: url(../../img/home/holiday.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.mid-banner__title{
+    font-size: 3rem;
+    color: var(--white-color);
+    font-weight: 800;
+}
+.mid-banner__btn{
+    background-color: var(--white-color);
+    color: #F76570;
+    padding: 14px 50px;
+    border-radius: 30px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+/* --------------Recommend--------- */
+.recommend{
+    margin-top: 80px;
+}
+.recommend-container{
+    justify-content: space-between;
+}
+.recommend-content{
+
+}
+.recommend-title{
+    font-size: 3.4rem;
+    font-weight: 800;
+    color: var(--main-color);
+    margin-bottom: 40px;
+}
+.recommend-text{
+    font-size: 1.4rem;
+    color: var(--text-color);
+    line-height: 2.6rem;
+    padding-bottom: 30px;
+}
+.recommend-price{
+    font-size: 3.4rem;
+    color: var(--main-color);
+    font-weight: 700;
+}
+.recommend-unit{
+    font-size: 1.8rem;
+    color: var(--main-color);
+    font-weight: 400;
+    
+}
+.recommend-btn{
+    padding: 10px 40px;
+    border-radius: 30px;
+    background-color: #1BBC9B;
+    color: var(--white-color);
+    border: none;
+    font-size: 1.6rem;
+    margin-top: 40px;
+}
+
+.slideshow-container {
+    max-width: 100%;
+    height: 400px;
+    position: relative;
+    margin: auto;
+  }
+  /* Ẩn các slider */
+  .mySlides {
+      display: none;
+  }
+  .dot-container{
+    display:flex;
+    justify-content: center;
+  }
+  .dot {
+    
+    cursor:pointer;
+    height: 3px;
+    width: 30px;
+    margin: 0 2px;
+    /* background-color: #bbb; */
+    background-color: #000;
+  }
+  /* khi được hover, active đổi màu nền */
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+   
+  /* Thêm hiệu ứng khi chuyển đổi các slide */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 3s;
+    animation-name: fade;
+    animation-duration: 3s;
+  }
+   
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+   
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+
+
+/* ------Recommend tour--------- */
+
+.recommend-tour{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.recommend-tour-content{
+    letter-spacing: 1px;
+}
+.recommend-tour-content h2{
+    font-size: 2.2rem;
+    color: var(--main-color);
+    font-weight: 800;
+}
+.recommend-tour-content p{
+    font-size: 1.4rem;
+    color: var(--text-color);
+    line-height: 2.6rem;
+}
+.recommend-tour-content a{
+    color: #56CEED;
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+
+
+/* -----------------banner-custom------------- */
+
+.banner-custom{
+    margin-top: 80px;
+    
+}
+.banner-custom__content{
+    position: relative;
+    height: 100%;
+}
+.banner-custom__text{
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    color: var(--white-color);
+}
+
+.banner-custom__img{
+    width: 100%;
+}
+.banner-custom__title{
+    margin-bottom: 50px;
+}
+.banner-custom__title h3{
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 2px;
+
+}
+.banner-custom__title h2{
+    font-size: 4rem;
+}
+.banner-custom__btn{
+    display: flex;
+    justify-content: center;
+}
+.banner-custom__btn a{
+    background-color: var(--white-color);
+    padding: 16px 44px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #56CEED;
+}
+.btn-city{
+    color: #F6AC6B;
+}
+
+/* ---------------packages-------------- */
+.packages{
+    margin-bottom: 50px;
+}
+.packages-container{
+
+}
+
+
+
+
+

@@ -1,0 +1,21 @@
+@media (min-width:740px) and (max-width: 1024px) {
+    .contact-form{
+        margin-bottom: 40px;
+    }
+    .contact-form-input button {
+        padding: 16px 48px;
+    }
+}
+
+@media (max-width: 739px) {
+    .contact-container{
+        justify-content: center;
+    }
+    .contact-form p {
+        line-height: 16px;
+        letter-spacing: 1.2px;
+    }
+    .contact-form{
+        margin-bottom: 40px;
+    }
+}

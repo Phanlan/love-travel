@@ -1,0 +1,40 @@
+@media(max-width : 1024px) {
+    .about-content{
+        margin-bottom: 50px;
+    }
+    .about-content-container{
+        justify-content: center;
+        text-align: center;
+    }
+    .about-content-basic {
+        padding-top: 0;
+    }
+    .staff-info__container{
+        justify-content: center;
+    }
+    .staff-info {
+        transform: translateY(-45px);
+    }
+    .staff-item{
+        margin-bottom: 50px;
+    }
+    .info-container {
+        text-align: center;
+    }
+}
+
+@media (min-width:740px) and (max-width: 1024px) {
+  
+}
+
+@media (max-width: 739px) {
+    
+    .out-staff_content{
+        padding: 50px;
+        text-align: center;
+    }
+    .about-content-container {
+        justify-content: center;
+        text-align: center;
+    }
+}

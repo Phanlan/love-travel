@@ -1,0 +1,105 @@
+.header{ 
+    background-image: url("../../img/news/new-header.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* news-body */
+
+.news-body{
+    margin-top: 50px;
+    
+}
+.news-body__container{
+    justify-content: center;
+}
+.news-item{
+    margin: 0 0 40px 40px;
+    display: flex;
+}
+.news-item__img {
+    background-image: url("../../img/news/travel-tip1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.news-item__content{
+    padding: 30px 40px 40px;
+    background-color: #1BBC9B;
+}
+.news-item__content{
+    color: var(--white-color);
+}
+.news-item__content h4{
+    font-size: 1.3rem;
+    font-weight: 500;
+    letter-spacing: 1.4px;
+    margin-bottom: 10px;
+}
+.news-item__content h3{
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-top: 8px;
+}
+.news-item__content p{
+    letter-spacing: 1.4px;
+    font-size: 1.4rem;
+    margin-bottom: 30px;
+}
+.news-item__content a{
+    text-decoration: none;
+    background-color: var(--white-color);
+    color: #1BBC9B;
+    padding: 12px 24px;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.news-item.events .news-item__img {
+    background-image: url("../../img/news/travel-tip2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.news-item.events .news-item__content,
+.news-item.love .news-item__content {
+    background-color: var(--white-color);
+    border: 1px solid #F1F1F1;
+}
+.news-item.events .news-item__content,
+.news-item.love .news-item__content {
+    color: var(--text-color);
+}
+.news-item.events .news-item__content h3,
+.news-item.love .news-item__content h3{
+    color: var(--main-color);
+}
+.news-item.events .news-item__content a {
+    background-color: #BA71DA;
+    color: var(--white-color);
+}
+.news-item.love .news-item__content a{
+    background-color: #F76570;
+    color: var(--white-color);
+}
+.news-item.love .news-item__img {
+    background-image: url("../../img/news/travel-tip3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.news-item.beachs .news-item__img {
+    background-image: url("../../img/news/travel-tip4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.news-item.beachs .news-item__content {
+    background-color: #14B9D5;
+}
+.news-item.beachs .news-item__content a{
+    color: #14B9D5;
+}

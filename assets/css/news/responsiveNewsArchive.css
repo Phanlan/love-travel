@@ -1,0 +1,15 @@
+@media (min-width:740px) and (max-width: 1024px) {
+    .news-item {
+        margin-right: 40px;
+    }
+}
+@media (max-width: 739px) {
+    .news-body {
+        
+    }
+    .news-item {
+        margin-right: 40px;
+        flex-direction: column;
+        padding-bottom: 60%;
+    }
+}
